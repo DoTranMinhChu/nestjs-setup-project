@@ -1,0 +1,25 @@
+server:
+  env: development
+  port: 5000
+db:
+  type: 'mysql'
+  host: 'localhost'
+  port: 3306
+  username: 'admin'
+  password: '12345'
+  database: 'databasetest'
+  entities: ["dist/**/*.entity{.ts,.js}"]   
+  synchronize: true
+  dropSchema: false
+refreshToken:
+  expiresInMs: 2.592e+09
+jwt:
+  secret: YFd9BMJj6UFzy72KsuuM349vpZKbCa8RGWJzhFzFS53HXSsuT4MJNcwp6q858hGL
+  signOptions:
+    subject: nestjs-setup-project
+    issuer: nestjs-setup-project-staging
+    expiresIn: 1d
+google:
+  id: 1a
+  secret: 1a
+  redirectURI: 1a

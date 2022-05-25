@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/app.service": ["src/app.service"],
+      "@app/app.module": ["src/app.module"],
+      "@auth/*": ["src/service/auth/*"],
+      "@common/*": ["src/common/*"],
+      "@config/*": ["src/config/*"],
+      "@constant/*": ["src/constant/*"],
+      "@decorator/*": ["src/decorator/*"],
+      "@filter/*": ["src/filter/*"],
+      "@service/*": ["src/service/*"],
+      "@data/*": ["src/data/*"],
+      "@repository/*": ["src/repository/*"],
+      "@exception/*": ["src/exception/*"],
+      "@api/*": ["src/api/*"],
+      "@guard/*": ["src/guard/*"],
+      "@resources/*": ["resource/*"]
+    }
+  }
+}
